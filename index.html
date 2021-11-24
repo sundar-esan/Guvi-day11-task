@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table,th,td {border:1px solid black;
+                      border-collapse: collapse; 
+                      padding:5px;
+                      text-align: center;  
+        }
+    </style>
+    <title>Html task</title>
+</head>
+<body>
+    <h4>1)Use certain HTML elements to display the following in a HTML
+         page</h4>
+         <ul>
+             <li>
+                Programming Language
+                <ul>
+                    <li>JavaScript
+                        <ol type="a">
+                            <li>Angular</li>
+                                <li>React</li>
+                                <li>Vue.js</li>
+                        </ol>
+                    </li>
+                    <li>Python
+                        <ol type="a">
+                            <li>Django Framework</li>
+                               <li>Flask Framework</li>
+                        </ol>
+                    </li>
+                    <li>Java
+                        <ol type="a">
+                            <li>Spring</li>
+                                <li>Maven</li>
+                                <li>Hibernate</li>
+                        </ol>
+                    </li>
+                </ul>
+             </li>
+             <li>
+                Database
+                <ul>
+                    <li>MySQL</li>
+                     <li> MongoDB</li>
+                        <li>Cansandra</li>
+                </ul>
+             </li>
+         </ul>
+         <h4>2)Create an element that helps you to open the https://google.com in separate new tab</h4>
+
+         <a href="https://google.com " target="_blank">Google.com</a>
+
+         <h4>3)In the form, add two radio buttons with grouping them for employee type(Salaried and own business)
+        </h4>
+
+        <form>
+            <fieldset>
+                <legend> Employee Type</legend>
+                       
+            <input type="radio">
+            <label for="">Salaried</label>
+            <input type="radio">
+            <label for=""> Own Business</label>
+            
+            </fieldset>
+    
+        </form>
+       <h4>4)Design form shown in the link (http://evc-cit.info/cit040/formguide/card_0.png)
+    </h4>
+
+    <form>
+        <fieldset style="border-width: 10px;">
+       <h3 style="background-color: rgb(233, 25, 25);
+       color:white; font-size: 50px;">YES! I Want to subscribe to Mag-O-Zine</h3><br>
+     
+
+        <label for="">First Name </label>
+        <input type="text">
+        <label for="">Last Name</label>
+        <input type="text"><br><br>
+        <label for="">Adress </label>
+        <input type="text"><br><br>
+        <label for="">City</label>
+        <input type="text">
+        <label for="">State</label>
+        <input type="text">
+        <label for="">Zip</label>
+        <input type="text"><br><br>
+        <label for="">Subscribe for: </label>
+        <input type="checkbox">
+        <label for=""> 1 year($19.95)</label>
+        <input type="checkbox">
+        <label for="">2 year($35.00)</label><br><br>
+        <label for="">Send me more information about:</label><br><br>
+        <input type="checkbox">
+        <label for="">Computer_Zine</label><br><br>
+        <input type="checkbox">
+        <label for="">Fishing_Zine</label><br><br>
+        <input type="checkbox">
+        <label for="">Cat_Zine</label>
+
+
+        </fieldset> 
+    </form>
+    <h4>5)Use the table tag to design given image Click here.</h4>
+    <h5 style="margin-left:180px;">Health Chart</h5>
+    <table >
+        <tr>
+           <th rowspan="2">State of Health</th> 
+           <th colspan="2">Fasting Value</th> 
+           <th>After Eating</th> 
+        </tr>
+        <tr>
+            <th>Minimum</th>
+            <th>Maximum</th>
+            <th>2 hours after eating</th>
+        </tr>
+        <tr>
+           <td>Healthy</td>
+           <td>70</td>
+           <td>100</td>
+           <td>Less than 140</td>
+        </tr>
+        <tr>
+            <td>Pre-Diabetes</td>
+            <td>101</td>
+            <td>126</td>
+            <td>140 to 200</td>
+        </tr>
+        <tr>
+            <td>Diabetes</td>
+            <td>More than 126</td>
+            <td>N A</td>
+            <td>More than 200</td>
+        </tr>
+    </table>
+    <h4>6)Write HTML input tags snippet to show default values for all Form elements.
+    </h4>
+
+    <form>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" value="Sundar"><br><br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" value="Esan"><br><br>
+        <input type="submit" value="submit">
+    </form>
+    <h4>7)In your, HTML page add the below line and Highlight
+         it without using any CSS.</h4>
+         <ul><li>
+            <mark>"HTML & CSS is awesome"</mark>
+         </li></ul>
+
+         <h4>8)Design a contact us form with all fields as required.</h4>
+
+         <h5>Contact Us</h5>
+         <form>
+
+             <label for="fname">First Name</label>
+             <input type="text" id="fname" placeholder="your first name..."><br><br>
+             <label for="lname">Last name</label>
+             <input type="text" id="lname" placeholder="your last name..."><br><br>
+             <label for="country">Select your country</label>
+             <select>
+                 <option>INDIA</option>
+                 <option>AMERICA</option>
+                     <option>CANADA</option>
+                <option>SOUTH AFRICA</option>
+                <option>EUROPE</option>
+             </select><br><br>
+             <label for="email">Email Id</label>
+             <input type="email" placeholder="your mail id.."><br><br>
+             <label for="subject">Message</label><br><br>
+             <textarea placeholder="write your message here"></textarea><br><br>
+             <input type="submit">
+
+         </form>
+
+         <h4>9)Create an HTML page, which should contain all types
+              of input elements.</h4>
+              <h5>All types of  input elements</h5>
+
+             Name: <input type="text"  placeholder="write your name"><br><br>
+             E-mail: <input type="email" placeholder="write your email"><br><br>
+             Password:<input type="password"><br><br>
+             Mobile number:<input type="number" placeholder="your mobile number"><br><br>
+             File: <input type="file" ><br><br>
+             Hidden input type:<input type="hidden"><br><br>
+            Radio input <input type="radio"><br><br>
+             Range input type:  <input type="range" ><br><br>
+           Rest input type: <input type="reset"><br><br>
+          Search input type: <input type="search"><br><br>
+         Tel input type: <input  type="tel"><br><br>
+         Month input type:<input type="month"><br><br>
+        Time input type: <input type="time"><br><br>
+       Url input type: <input type="url"><br><br>
+      Date  input type:  <input type="date"><br><br>
+      Datetime  input type:  <input type="datetime"><br><br>
+      Datetime local  input type:  <input type="datetime-local"><br><br>
+       Image  input type: <input type="image"><br><br>
+      Checkbox  input type:  <input type="checkbox"><br><br>
+      Color  input type:  <input type="color"><br><br>
+      Button  input type:  <input type="button"><br><br>
+      Textarea  input type:<input type="text area"><br><br>
+      Submit  input type:<input type="submit">
+                   
+</body>
+</html>
